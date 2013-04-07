@@ -8,7 +8,8 @@ class VenueController < UIViewController
     self.view.addSubview(@table)
     @table.dataSource = self
     @table.delegate = self
-    @data = ("A".."Z").to_a
+    #@data = ("A".."Z").to_a
+    populate_places
   end 
 
   def tableView(tableView, cellForRowAtIndexPath:indexPath) 
@@ -27,10 +28,12 @@ class VenueController < UIViewController
   end
 
 
-  #def populate_places
-  #  @data ||= []
-  #  @data <<
-  #end
+  def populate_places
+    @data ||= []
+    @data << "Villa Paradiso"
+    @data << "Ekebergrestauranten"
+    @data
+  end
 
   def tableView(tableView, didSelectRowAtIndexPath:indexPath) 
     tableView.deselectRowAtIndexPath(indexPath, animated: true) 
