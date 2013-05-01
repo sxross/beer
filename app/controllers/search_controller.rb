@@ -1,11 +1,3 @@
-#---
-# Excerpted from "RubyMotion",
-# published by The Pragmatic Bookshelf.
-# Copyrights apply to this code. It may not be used to create training material, 
-# courses, books, articles, and the like. Contact us if you are in doubt.
-# We make no guarantees that this code is fit for any purpose. 
-# Visit http://www.pragmaticprogrammer.com/titles/carubym for more book information.
-#---
 class SearchController < UIViewController
   def viewDidLoad
     super
@@ -19,14 +11,16 @@ class SearchController < UIViewController
     @text_field.textAlignment = UITextAlignmentCenter
     @text_field.autocapitalizationType = UITextAutocapitalizationTypeNone
     @text_field.borderStyle = UITextBorderStyleRoundedRect
-    @text_field.center = CGPointMake(self.view.frame.size.width / 2, self.view.frame.size.height / 2 - 100)
+    @text_field.center = CGPointMake(self.view.frame.size.width / 2, 
+                                     self.view.frame.size.height / 2 - 100)
     self.view.addSubview(@text_field)
 
     @search = UIButton.buttonWithType(UIButtonTypeRoundedRect)
     @search.setTitle("Search", forState:UIControlStateNormal)
     @search.setTitle("Loading", forState:UIControlStateDisabled)
     @search.sizeToFit
-    @search.center = CGPointMake(self.view.frame.size.width / 2, @text_field.center.y + 40)
+    @search.center = CGPointMake(self.view.frame.size.width / 2, 
+                                 @text_field.center.y + 40)
     self.view.addSubview(@search)
 
     @search.when(UIControlEventTouchUpInside) do
