@@ -1,4 +1,7 @@
 class AppDelegate
+
+  Parse.setApplicationId("#{ENV['PARSE_APPLICATION_ID']}, clientKey:#{ENV['PARSE_CLIENT_KEY']}")
+  
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
     tabbar = UITabBarController.alloc.init
