@@ -12,8 +12,8 @@ class Beer
   def url; @url; end
 
   All = [
-    Beer.new(59.923469, 10.758304, 'Parkteateret',  'http://parkteateret.no'),
-    Beer.new(59.923474, 10.757948, 'Cafe Fontes AS', 'http://cafefontes.no'),
-    Beer.new(59.923489, 10.753748, 'DAQOTA', 'http://cafefontes.no')
+    Beer.new(59.923469, 10.758304, 'Parkteateret',    'http://www.parkteateret.no/'),
+    Beer.new(59.923474, 10.757948, 'Cafe Fontes AS',  'http://cafefontes.no'),
+    Beer.new(59.923489, 10.753748, 'DAQOTA',          'http://cafefontes.no')
   ]
 end
