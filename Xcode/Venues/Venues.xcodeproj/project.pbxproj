@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0B7A72173BC40400347945 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0B7A71173BC40400347945 /* UIKit.framework */; };
+		DF0B7A74173BC40400347945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0B7A73173BC40400347945 /* Foundation.framework */; };
+		DF0B7A76173BC40400347945 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0B7A75173BC40400347945 /* CoreGraphics.framework */; };
+		DF0B7A78173BC40400347945 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0B7A77173BC40400347945 /* CoreData.framework */; };
+		DF0B7A7E173BC40400347945 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF0B7A7C173BC40400347945 /* InfoPlist.strings */; };
+		DF0B7A80173BC40400347945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0B7A7F173BC40400347945 /* main.m */; };
+		DF0B7A84173BC40400347945 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0B7A83173BC40400347945 /* AppDelegate.m */; };
+		DF0B7A86173BC40400347945 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0B7A85173BC40400347945 /* Default.png */; };
+		DF0B7A88173BC40400347945 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0B7A87173BC40400347945 /* Default@2x.png */; };
+		DF0B7A8A173BC40400347945 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF0B7A89173BC40400347945 /* Default-568h@2x.png */; };
+		DF0B7A93173BC40400347945 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0B7A92173BC40400347945 /* MasterViewController.m */; };
+		DF0B7A96173BC40400347945 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0B7A95173BC40400347945 /* DetailViewController.m */; };
+		DF0B7A9F173BC54200347945 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0B7A9C173BC54200347945 /* MainStoryboard.storyboard */; };
+		DF0B7AA0173BC54200347945 /* Venues.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF0B7A9D173BC54200347945 /* Venues.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF0B7A6E173BC40400347945 /* Venues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venues.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0B7A71173BC40400347945 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF0B7A73173BC40400347945 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF0B7A75173BC40400347945 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF0B7A77173BC40400347945 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF0B7A7B173BC40400347945 /* Venues-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Venues-Info.plist"; sourceTree = "<group>"; };
+		DF0B7A7D173BC40400347945 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF0B7A7F173BC40400347945 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF0B7A81173BC40400347945 /* Venues-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Venues-Prefix.pch"; sourceTree = "<group>"; };
+		DF0B7A82173BC40400347945 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF0B7A83173BC40400347945 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF0B7A85173BC40400347945 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DF0B7A87173BC40400347945 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DF0B7A89173BC40400347945 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF0B7A91173BC40400347945 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DF0B7A92173BC40400347945 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DF0B7A94173BC40400347945 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DF0B7A95173BC40400347945 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DF0B7A9C173BC54200347945 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../../../resources/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DF0B7A9E173BC54200347945 /* Venues.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Venues.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF0B7A6B173BC40400347945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0B7A72173BC40400347945 /* UIKit.framework in Frameworks */,
+				DF0B7A74173BC40400347945 /* Foundation.framework in Frameworks */,
+				DF0B7A76173BC40400347945 /* CoreGraphics.framework in Frameworks */,
+				DF0B7A78173BC40400347945 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0B7A65173BC40400347945 = {
+			isa = PBXGroup;
+			children = (
+				DF0B7A79173BC40400347945 /* Venues */,
+				DF0B7A70173BC40400347945 /* Frameworks */,
+				DF0B7A6F173BC40400347945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF0B7A6F173BC40400347945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF0B7A6E173BC40400347945 /* Venues.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF0B7A70173BC40400347945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF0B7A71173BC40400347945 /* UIKit.framework */,
+				DF0B7A73173BC40400347945 /* Foundation.framework */,
+				DF0B7A75173BC40400347945 /* CoreGraphics.framework */,
+				DF0B7A77173BC40400347945 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF0B7A79173BC40400347945 /* Venues */ = {
+			isa = PBXGroup;
+			children = (
+				DF0B7A82173BC40400347945 /* AppDelegate.h */,
+				DF0B7A83173BC40400347945 /* AppDelegate.m */,
+				DF0B7A91173BC40400347945 /* MasterViewController.h */,
+				DF0B7A92173BC40400347945 /* MasterViewController.m */,
+				DF0B7A94173BC40400347945 /* DetailViewController.h */,
+				DF0B7A95173BC40400347945 /* DetailViewController.m */,
+				DF0B7A9C173BC54200347945 /* MainStoryboard.storyboard */,
+				DF0B7A9D173BC54200347945 /* Venues.xcdatamodeld */,
+				DF0B7A7A173BC40400347945 /* Supporting Files */,
+			);
+			path = Venues;
+			sourceTree = "<group>";
+		};
+		DF0B7A7A173BC40400347945 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF0B7A7B173BC40400347945 /* Venues-Info.plist */,
+				DF0B7A7C173BC40400347945 /* InfoPlist.strings */,
+				DF0B7A7F173BC40400347945 /* main.m */,
+				DF0B7A81173BC40400347945 /* Venues-Prefix.pch */,
+				DF0B7A85173BC40400347945 /* Default.png */,
+				DF0B7A87173BC40400347945 /* Default@2x.png */,
+				DF0B7A89173BC40400347945 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF0B7A6D173BC40400347945 /* Venues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0B7A99173BC40400347945 /* Build configuration list for PBXNativeTarget "Venues" */;
+			buildPhases = (
+				DF0B7A6A173BC40400347945 /* Sources */,
+				DF0B7A6B173BC40400347945 /* Frameworks */,
+				DF0B7A6C173BC40400347945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Venues;
+			productName = Venues;
+			productReference = DF0B7A6E173BC40400347945 /* Venues.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0B7A66173BC40400347945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Martin Stabenfeldt";
+			};
+			buildConfigurationList = DF0B7A69173BC40400347945 /* Build configuration list for PBXProject "Venues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF0B7A65173BC40400347945;
+			productRefGroup = DF0B7A6F173BC40400347945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF0B7A6D173BC40400347945 /* Venues */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF0B7A6C173BC40400347945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0B7A7E173BC40400347945 /* InfoPlist.strings in Resources */,
+				DF0B7A86173BC40400347945 /* Default.png in Resources */,
+				DF0B7A88173BC40400347945 /* Default@2x.png in Resources */,
+				DF0B7A8A173BC40400347945 /* Default-568h@2x.png in Resources */,
+				DF0B7A9F173BC54200347945 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF0B7A6A173BC40400347945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0B7A80173BC40400347945 /* main.m in Sources */,
+				DF0B7A84173BC40400347945 /* AppDelegate.m in Sources */,
+				DF0B7A93173BC40400347945 /* MasterViewController.m in Sources */,
+				DF0B7A96173BC40400347945 /* DetailViewController.m in Sources */,
+				DF0B7AA0173BC54200347945 /* Venues.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF0B7A7C173BC40400347945 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0B7A7D173BC40400347945 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF0B7A97173BC40400347945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF0B7A98173BC40400347945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0B7A9A173BC40400347945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Venues/Venues-Prefix.pch";
+				INFOPLIST_FILE = "Venues/Venues-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF0B7A9B173BC40400347945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Venues/Venues-Prefix.pch";
+				INFOPLIST_FILE = "Venues/Venues-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0B7A69173BC40400347945 /* Build configuration list for PBXProject "Venues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0B7A97173BC40400347945 /* Debug */,
+				DF0B7A98173BC40400347945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0B7A99173BC40400347945 /* Build configuration list for PBXNativeTarget "Venues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0B7A9A173BC40400347945 /* Debug */,
+				DF0B7A9B173BC40400347945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF0B7A9D173BC54200347945 /* Venues.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF0B7A9E173BC54200347945 /* Venues.xcdatamodel */,
+			);
+			currentVersion = DF0B7A9E173BC54200347945 /* Venues.xcdatamodel */;
+			name = Venues.xcdatamodeld;
+			path = ../../../resources/Venues.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF0B7A66173BC40400347945 /* Project object */;
+}
