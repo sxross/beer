@@ -8,6 +8,7 @@ class BeerListController < UITableViewController
 
   def viewDidLoad
     view.dataSource = view.delegate = self
+    @beers = Beer.all
   end
 
   def viewWillAppear(animated)
@@ -15,7 +16,7 @@ class BeerListController < UITableViewController
   end    
 
   def tableView(tableView, numberOfRowsInSection:section)
-    Beer::All.size
+    Beer.count
   end
 
   CELLID = 'CellIdentifier'
@@ -26,13 +27,13 @@ class BeerListController < UITableViewController
       cell
     end
 
-    beer = Beer::All[indexPath.row]
+    beer = @beers[indexPath.row]
     cell.textLabel.text = beer.title
     cell
   end
 
   def tableView(tableView, accessoryButtonTappedForRowWithIndexPath:indexPath)
-    beer = Beer::All[indexPath.row]
+    beer = @beers[indexPath.row]
     controller = UIApplication.sharedApplication.delegate.beer_details_controller
     navigationController.pushViewController(controller, animated:true)
     controller.showDetailsForBeer(beer)
