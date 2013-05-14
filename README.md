@@ -1,5 +1,4 @@
-iSola
+Beer
 ===========
 
 
-Martin Stabenfeldt
