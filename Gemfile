@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
 
-gem "rake"
-gem "nitron"
+gem 'rake'
+gem 'motion_model'
+

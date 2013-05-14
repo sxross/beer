@@ -1,4 +1,5 @@
-beer-nitron
+iSola
 ===========
 
-The Beer RubyMotionSamples app with CoreData provided by Nitron
+
+Martin Stabenfeldt
